@@ -85,7 +85,7 @@ function startPrompt() {
 
                         type: "confirm",
                         name: "continue",
-                        message: "Would you like to purchase an item?",
+                        message: "Would you like to purchase another item?",
                         default: true
 
                     }]).then(function (user) {
